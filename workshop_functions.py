@@ -30,9 +30,7 @@ def draw_square(x, y, colour):
 
 def draw_board(width, height, colour):
     import game
-    square_size = game.SQUARE_SIZE
 
-    pygame.display.set_mode((width * square_size, height * square_size))
     screen = pygame.display.get_surface()
     screen.fill(_to_colour(colour))
 
